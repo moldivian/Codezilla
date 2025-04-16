@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codzilla - Oyunlar</title>
+    <link rel="stylesheet" href="oyunlar.css">
+</head>
+<body>
+    <section class="kategori-filter">
+        <h2>Oyunlar</h2>
+        <div class="filter-buttons">
+            <button data-kategori="tum" class="aktif">Tüm Oyunlar</button>
+            <button data-kategori="aksiyon">Aksiyon</button>
+            <button data-kategori="dovus">Dövüş</button>
+            <button data-kategori="platform">Platform</button>
+            <button data-kategori="rol yapma">Rol Yapma</button>
+            <button data-kategori="macera">Macera</button>
+            <button data-kategori="korku">Korku</button>
+        </div>
+    </section>
+    <section class="oyun-container">
+        <!-- Aksiyon Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun1"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Night City'de ölümsüzlük arayan bir hackerın yolculuğu.">
+            <img src="images/cyberpunk.jpg" alt="Cyberpunk 2077">
+            <h3>Cyberpunk 2077</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun2"
+        data-platform="PC, PS3/4/5, Xbox 360/One/Series" 
+        data-oyuncu="Tek Kişilik / Online (32 oyuncu)"
+        data-aciklama="Los Santos'ta 3 suçlunun birbirine dolanan hikayeleri ve devasa açık dünya.">
+            <img src="images/grand theft auto V.webp" alt="Grand Theft Auto V">
+            <h3>Grand Theft Auto V</h3>
+            <p>Çıkış Yılı: 2013</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun3"
+        data-platform=" PC, PS4, Xbox One" 
+        data-oyuncu="Tek Kişilik / Online (32 oyuncu)"
+        data-aciklama="Arthur Morgan'ın çökmekte olan çetesini kurtarma çabası.">
+            <img src="images/Red Dead Redemption 2.avif" alt="Red Dead Redemption 2">
+            <h3>Red Dead Redemption 2</h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun4"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Online (150 oyuncu)"
+        data-aciklama="Ücretsiz battle royale moduyla askeri FPS deneyimi.">
+            <img src="images/call-of-duty-warzone-mobile.jpeg" alt="Call of Duty: Warzone">
+            <h3> Call of Duty: Warzone</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan:★★★★☆ </p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun5"
+        data-platform="PC, PS4/5, Xbox One/Series, Switch" 
+        data-oyuncu="Tek/Çoklu (2-8)"
+        data-aciklama="Cehennem yaratıklarına karşı ultra şiddetli katliam.">
+            <img src="images/doom eternal.jpg" alt="Doom Eternal">
+            <h3>Doom Eternal</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun6"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek/Çoklu (2)"
+        data-aciklama="Tropik Yara adasında diktatör Anton Castillo'ya karşı devrim.">
+            <img src="images/far cry 6.jpg" alt="Far Cry 6">
+            <h3>Far Cry 6</h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun7">
+            <img src="images/battlefield 2042.jpg" alt="Battlefield 2042"
+            data-platform="PC, PS5, Xbox Series" 
+            data-oyuncu="Online (128 oyuncu)"
+            data-aciklama="Yakın gelecekte devasa ölçekli askeri çatışmalar.">
+            <h3> Battlefield 2042</h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★☆☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun8"
+        data-platform="PC, Xbox One/Series" 
+        data-oyuncu="Tek Kişilik / Online (24 oyuncu)"
+        data-aciklama="Master Chief'in Zeta Halo'da Cortana'yı arayışı.">
+            <img src="images/halo infinite.jpg" alt="Halo Infinite">
+            <h3>Halo Infinite</h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun9"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="Tek Kişilik / Online (12 oyuncu)"
+        data-aciklama="Pilot Jack Cooper ve Titan BT-7274'ün dostluğu.">
+            <img src="images/titanfall 2.webp" alt="Titanfall 2">
+            <h3>Titanfall 2</h3>
+            <p>Çıkış Yılı: 2016</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="aksiyon" id="oyun10"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Nükleer kıştan kurtulmak için Rusya'yı geçen tren yolculuğu.">
+            <img src="images/metro exodus.jpg" alt="Metro Exodus">
+            <h3>Metro Exodus</h3>
+            <p>Çıkış Yılı: 2019</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <!-- macera Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="macera" id="oyun11"
+        data-platform="Switch, Wii U" 
+        data-oyuncu="Tek"
+        data-aciklama="Link, Hyrule'u kurtarmak için uyanır ve özgür bir dünyada Ganon'a karşı savaşır.">
+            <img src="images/The Legend of Zelda.jpg" alt="The Legend of Zelda: Breath of the Wild ">
+            <h3>The Legend of Zelda: Breath of the Wild </h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun12"
+        data-platform="PS4/5, PC" 
+        data-oyuncu="Tek Kişilik (Online çoklu 10 oyuncu)"
+        data-aciklama="Nathan Drake, son büyük macerasında kayıp korsan hazinesini arar ve geçmişiyle yüzleşir.">          
+            <img src="images/uncharted4.jpg" alt="Uncharted 4: A Thief’s End">
+            <h3>Uncharted 4: A Thief’s End</h3>
+            <p>Çıkış Yılı: 2016</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>       
+
+         <div class="oyun-karti" data-kategori="macera" id="oyun13"
+         data-platform="PC, PS4/5" 
+         data-oyuncu="Tek Kişilik"
+         data-aciklama="Aloy, robotlarla dolu bir dünyada geçmişin sırlarını ortaya çıkarmaya çalışır.">
+            <img src="images/horizon ziro dawn.avif" alt="Horizon Zero Dawn">
+            <h3>Horizon Zero Dawn</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun14"
+        data-platform="PS4/5, PC" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Kratos, oğlu Atreus'la birlikte eşinin son dileğini yerine getirmek için Norse mitolojisinde bir yolculuğa çıkar.">
+            <img src="images/god of war.jpg" alt="God of War">
+            <h3>God of War</h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun15"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Viking Eivor, İngiltere'yi fethederken bir yandan da kadim sırları keşfeder.">
+            <img src="images/assasins creed vahalla.png" alt="Assassin’s Creed Valhalla">
+            <h3>Assassin’s Creed Valhalla</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun16"
+        data-platform="PC, PS3/4, Xbox 360/One" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Genç Lara Croft, hayatta kalmak için mücadele ettiği ilk büyük macerasına atılır.">
+            <img src="images/tomb raider.jpg" alt="Tomb Raider ">
+            <h3>Tomb Raider </h3>
+            <p>Çıkış Yılı: 2013</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun17"
+        data-platform="PC, PS4/5" 
+        data-oyuncu="Tek (Asenkron çoklu)"
+        data-aciklama="Sam Porter Bridges, parçalanmış bir Amerika’yı yeniden bağlamak için tehlikeli yolları aşar.">
+            <img src="images/Death Stranding.jpg" alt="Death Stranding ">
+            <h3>Death Stranding </h3>
+            <p>Çıkış Yılı: 2019</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun18"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek Kişilik"
+        data-aciklama="Genç Jedi Cal, Galaksi İmparatorluğu’ndan kaçarak Jedi düzenini yeniden kurmaya çalışır.">
+            <img src="images/star wars jedi fallen order.avif" alt="Star Wars Jedi: Fallen Order">
+            <h3>Star Wars Jedi: Fallen Order </h3>
+            <p>Çıkış Yılı: 2019</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun19"
+        data-platform="PS4/5" 
+        data-oyuncu="Tek Kişilik (Online 4 kişi)"
+        data-aciklama="Samuray Jin Sakai, onurunu ve halkını korumak için Moğol istilasına karşı savaşır.">
+            <img src="images/ghost of tsushima.jpg" alt="Ghost of Tsushima ">
+            <h3>Ghost of Tsushima </h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+
+        <div class="oyun-karti" data-kategori="macera" id="oyun20"
+        data-platform="PS4/5" 
+        data-oyuncu="Tek Kişilik "
+        data-aciklama="Ellie, sevdiği kişilerin intikamını almak için karanlık bir yolculuğa çıkar.">
+            <img src="images/the last of us part2.jpg" alt="The Last of Us Part II ">
+            <h3>The Last of Us Part II</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <!-- Dövüş Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="dovus" id="oyun21"         
+        data-platform="PC, PS4/5, Xbox Series" 
+        data-oyuncu="1-2 (Online 16 kişiye kadar lobi)"
+        data-aciklama="Yeni ve klasik karakterler dünya çapında dövüşerek güçlerini test ederken kişisel hikâyelerini de ortaya koyuyorlar.">
+            <img src="images/street fighter 6.png" alt="Street Fighter VI ">
+            <h3>Street Fighter VI </h3>
+            <p>Çıkış Yılı: 2023</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun22"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="1-2 (Online 8 kişilik turnuva)"
+        data-aciklama="Mishima ailesinin yıllardır süren savaşında sırlar açığa çıkar ve kan davası zirveye ulaşır.">
+            <img src="images/tekken 7.jpg" alt="Tekken 7 ">
+            <h3>Tekken 7 </h3>
+            <p>Çıkış Yılı: 2015</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun23"
+        data-platform="PC, PS4/5, Xbox One/Series, Switch" 
+        data-oyuncu="1-2 (Online 8 kişilik 'King of the Hill')"
+        data-aciklama="Zaman yolculukları ve tanrılarla dolu bu dövüşte geçmiş, gelecek ve şimdi çarpışır.">
+            <img src="images/mortal kombat 11.jpg" alt="Mortal Kombat 11 ">
+            <h3>Mortal Kombat 11 </h3>
+            <p>Çıkış Yılı: 2019</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun24"
+        data-platform="Nintendo Switch" 
+        data-oyuncu="1-8 (Online 4 kişi)"
+        data-aciklama="Nintendo evrenindeki karakterler, evreni kurtarmak ve birbirlerini ring dışına uçurmak için savaşıyor.">
+            <img src="images/super smash bros ultimate.jpg" alt="Super Smash Bros. Ultimate">
+            <h3>Super Smash Bros. Ultimate </h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun25"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="1-2 (Online 3v3 takım savaşı)"
+        data-aciklama="Goku ve arkadaşları, bilinmeyen bir klon ordusuyla savaşmak ve dünyayı kurtarmak için birleşiyor.">
+            <img src="images/dragon ball fighterz.jpg" alt="Dragon Ball">
+            <h3>Dragon Ball FighterZ  </h3> 
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun26"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="1-2 (Online lig sistemi)"
+        data-aciklama="Batman ve Superman'in farklı idealleri, kahramanlar ve kötüleri birbirine düşürürken dünya yeniden şekilleniyor.">
+            <img src="images/injustice 2.jpg" alt="Injustice 2">
+            <h3>Injustice 2</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun27"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="1-2 (Online)"
+        data-aciklama="Efsanevi Soul Edge ve Soul Calibur kılıçları uğruna savaşan dövüşçüler tarihin akışını değiştiriyor.">
+            <img src="images/soulcalibur 6.jpg" alt="Soulcalibur VI">
+            <h3>Soulcalibur VI</h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★☆☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun28"
+        data-platform="PC, PS4/ PS5" 
+        data-oyuncu="1-2 (Online 16 kişilik lobi)"
+        data-aciklama="Sol Badguy ve müttefikleri, dünya barışı için savaşırken geçmişin hayaletleriyle yüzleşir.">
+            <img src="images/guilty gear strive.avif" alt="Guilty Gear Strive">
+            <h3>Guilty Gear Strive </h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun29"
+        data-platform="PC, Xbox One" 
+        data-oyuncu="1-2 (Online)"
+        data-aciklama="Ultratech şirketine karşı direnen dövüşçüler, doğaüstü güçlerle dolu bir dünyada kaderlerini belirler.">
+            <img src="images/killer instinct.jpg" alt="Killer Instinct">
+            <h3>Killer Instinct</h3>
+            <p>Çıkış Yılı: 2013</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="dovus" id="oyun30"
+        data-platform="PC, PS3/PS4" 
+        data-oyuncu="1-2 (Online)"
+        data-aciklama="Karmaşık çoklu evrenler ve zaman döngüleri arasında Ragna the Bloodedge son savaşına hazırlanır.">
+            <img src="images/blazblue central fiction.jpg" alt="BlazBlue: Central Fiction"> 
+            <h3>BlazBlue: Central Fiction</h3>
+            <p>Çıkış Yılı: 2015</p>
+            <p>Puan: ★★★☆☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <!-- platform Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="platform" id="oyun31"
+        data-platform="Nintendo Switch" 
+        data-oyuncu="1-2 (Yerel ko-op)"
+        data-aciklama="Mario, Prenses Peach'i kurtarmak ve Bowser'ın düğününü engellemek için Cappy adlı şapkasıyla dünyaları keşfeder.">
+            <img src="images/super mario odyssey.jpg" alt="Super Mario Odyssey ">
+            <h3>Super Mario Odyssey </h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun32"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Madeline, içsel sıkıntılarını aşmak için Celeste Dağı'na tırmanırken kendini bulur.">
+            <img src="images/celeste.jpg" alt="Celeste">
+            <h3>Celeste</h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun33"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Sessiz bir şövalye, çökmekte olan bir böcek krallığında karanlık bir sırrı ortaya çıkarmaya çalışır.">
+            <img src="images/Hollow_Knight.webp" alt="Hollow Knight">
+            <h3>Hollow Knight</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun34"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="1-2 (Yerel ko-op)"
+        data-aciklama="Cuphead ve Mugman, Şeytan’a olan borçlarını ödemek için ruh avına çıkar.">
+            <img src="images/cuphead.webp" alt="Cuphead">
+            <h3>Cuphead</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun35"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="1-4 (Yerel çok oyunculu)"
+        data-aciklama="Rayman ve arkadaşları, büyülü dünyalarda ritim dolu bölümlerde düşmanlarla savaşır ve arkadaşlarını kurtarır.">
+            <img src="images/raymand legends.jpg" alt="Rayman Legends ">
+            <h3>Rayman Legends </h3>
+            <p>Çıkış Yılı: 2013</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun36"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="1-2 (Yerel ko-op)"
+        data-aciklama="Kürek ustası bir şövalye, kayıp aşkını kurtarmak için kötü Order of No Quarter ile yüzleşir.">
+            <img src="images/Shovel_knight.jpg" alt="Shovel Knight ">
+            <h3>Shovel Knight </h3>
+            <p>Çıkış Yılı: 2014</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun37"
+        data-platform="PC, Xbox One, Nintendo Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Küçük ruh Ori, yeni bir ormanda kaderini bulmak ve dostunu kurtarmak için tehlikeli bir yolculuğa çıkar.">
+            <img src="images/ori and the will of the wisps.jpg" alt="Ori and the Will of the Wisps">
+            <h3>Ori and the Will of the Wisps</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun38"
+        data-platform="PS4, PS5, Xbox One, Xbox Series X|S, Nintendo Switch" 
+        data-oyuncu="1-2 (Yerel ko-op)"
+        data-aciklama="Crash ve arkadaşları, çoklu evrenlerde zamanın dengesini sağlamak için eski düşmanlarıyla savaşır.">
+            <img src="images/crash bandicoot 4.avif" alt="Crash Bandicoot 4: It’s About Time ">
+            <h3>Crash Bandicoot 4: It’s About Time </h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun39"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Ölümden dönen bir yaratık, sürekli değişen bir kaleden kaçmak için savaşır.">
+            <img src="images/dead cells.jpg" alt="Dead Cells">
+            <h3>Dead Cells</h3>
+            <p>Çıkış Yılı: 2018</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="platform" id="oyun40"
+        data-platform="PC, PS4, Xbox One, Nintendo Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Küçük bir çocuk, kız kardeşini bulmak için kabus gibi karanlık bir dünyada ilerler.">
+            <img src="images/limbo.avif" alt="Limbo">
+            <h3>Limbo</h3>
+            <p>Çıkış Yılı: 2010</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <!-- rol yapma Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun41"
+        data-platform="PC, PS4/5, Xbox One/Series, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Geralt, kayıp manevi kızı Ciri’yi bulmak için büyülü ve tehlikeli bir dünyada yolculuğa çıkar.">
+            <img src="images/the witcher 3.avif" alt="The Witcher 3: Wild Hunt">
+            <h3>The Witcher 3: Wild Hunt</h3>
+            <p>Çıkış Yılı: 2015</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun42"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek/Çoklu (Online PvP)"
+        data-aciklama="Tarnished adlı bir savaşçı, Elden Lord olmak için geniş ve karanlık bir dünyada yükselir.">
+            <img src="images/elden ring.jpg" alt="Elden Ring">
+            <h3>Elden Ring</h3>
+            <p>Çıkış Yılı: 2022</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun43"
+        data-platform="PC, PS3/4/5, Xbox 360/One/Series, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Ejderha doğan bir kahraman, dünyayı yok edecek kadim bir ejderhayı durdurmakla görevlendirilir.">
+            <img src="images/skyrim.jpg" alt="Skyrim ">
+            <h3>Skyrim </h3>
+            <p>Çıkış Yılı: 2011</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun44"
+        data-platform="PS4/5, PC" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Cloud Strife, Midgar şehrini tehdit eden mega şirket Shinra'ya karşı direnişin ön saflarına katılır.">
+            <img src="images/final fantasy 7 remake.jpg" alt="Final Fantasy VII Remake">
+            <h3>Final Fantasy VII Remake</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun45"
+        data-platform="PS4/5, PC, Xbox, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Lise öğrencileri, paralel bir boyutta hırsızlık yaparak yozlaşmış yetişkinlerin kalplerini çalar.">
+            <img src="images/persona 5.jpg" alt="Persona 5 Royal">
+            <h3>Persona 5 Royal</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun46"
+        data-platform="PC, PS4, Xbox One, Switch" 
+        data-oyuncu="Tek/Çoklu (4 kişi ko-op)"
+        data-aciklama="Tanrılığa yükselmek isteyen karakterler, seçimlerle şekillenen bir dünyada kendi kaderlerini çizer.">
+            <img src="images/divinity original sin 2.jpg" alt="divinity: Original Sin 2">
+            <h3>divinity: Original Sin 2</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun47"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Komutan Shepard, galaksiyi yok etmeye ant içmiş antik bir tehdit olan Reaper’lara karşı insanlığı savunur.">
+            <img src="images/mass effect.jpg" alt="Mass Effect Legendary Edition">
+            <h3>Mass Effect Legendary Edition</h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun48"
+        data-platform="PC, PS3/4, Xbox 360/One" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Inquisitor adlı karakter, büyü ve kaosun yıktığı bir dünyada düzeni yeniden sağlamaya çalışır.">
+            <img src="images/dragon age.jpg" alt="Dragon Age: Inquisition ">
+            <h3>Dragon Age: Inquisition </h3>
+            <p>Çıkış Yılı: 2014</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun49"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="Tek/Çoklu (Online PvP)"
+        data-aciklama="Kararmış bir dünyada ölümsüz bir savaşçı, ateşin son kıvılcımını canlı tutmak için yola çıkar.">
+            <img src="images/dark souls 3.avif" alt="Dark Souls III">
+            <h3>Dark Souls III</h3>
+            <p>Çıkış Yılı: 2016</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="rol yapma" id="oyun50"
+        data-platform="PC, Xbox Series X|S" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="2300'lü yıllarda geçen bu macerada, uzayın derinliklerinde bilinmeyen sırların peşine düşen bir kaşifi oynarsın.">
+            <img src="images/starfield.jpg" alt="Starfield">
+            <h3>Starfield</h3>
+            <p>Çıkış Yılı: 2023</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <!-- korku Kategorisi (10 oyun) -->
+        <div class="oyun-karti" data-kategori="korku" id="oyun51"
+        data-platform="PC, PS4/5, Xbox One/Series" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Ethan Winters, kaçırılan kızını kurtarmak için doğaüstü varlıklarla dolu lanetli bir köye girer.">
+            <img src="images/resident evil village.jpg" alt="">
+            <h3>Resident Evil Village </h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun52"
+        data-platform="PS2, Xbox, PC" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="James Sunderland, ölen eşinden aldığı gizemli bir mektup üzerine Silent Hill kasabasına gelir.">
+            <img src="images/silent hill 2.jpg" alt="Silent Hill 2">
+            <h3>Silent Hill 2</h3>
+            <p>Çıkış Yılı: 2001</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun53"
+        data-platform="PC, PS4, Xbox One, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Gazeteci Blake, eşiyle birlikte gizemli bir tarikatın dehşetiyle yüzleşirken yalnızca kamerasıyla hayatta kalmaya çalışır.">
+            <img src="images/outlast 2.jpg" alt="Outlast 2">
+            <h3>Outlast 2</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun54"
+        data-platform="PC, PS3/4, Xbox 360/One, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Amanda Ripley, annesinin izini sürerken uzay istasyonunda ölümcül bir Xenomorph'la kapana kısılır.">
+            <img src="images/alien isolation.jpg" alt="Alien: Isolation">
+            <h3>Alien: Isolation</h3>
+            <p>Çıkış Yılı: 2014</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun55"
+        data-platform="PC, PS4, Xbox One, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Hafızasını kaybetmiş bir adam, karanlık bir kalede kendi geçmişiyle ve korkularıyla yüzleşir.">
+            <img src="images/amnesia.jpg" alt="Amnesia: The Dark Descent">
+            <h3>Amnesia: The Dark Descent</h3>
+            <p>Çıkış Yılı: 2010</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun56"
+        data-platform="PC, PS5, Xbox Series X|S" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Mühendis Isaac Clarke, uzay gemisindeki Necromorph salgınını bastırmaya ve kaybolan sevgilisini bulmaya çalışır.">
+            <img src="images/dead space remake.jpg" alt="Dead Space Remake">
+            <h3>Dead Space Remake</h3>
+            <p>Çıkış Yılı: 2023</p>
+            <p>Puan:  ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun57"
+        data-platform="PC, PS4, Xbox One" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Dedektif Sebastian, kayıp kızını kurtarmak için kabus gibi bir simülasyon dünyasında hayatta kalmaya çalışır.">
+            <img src="images/the evil within 2.jpg" alt="The Evil Within 2">
+            <h3>The Evil Within 2</h3>
+            <p>Çıkış Yılı: 2017</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun58"
+        data-platform="PC (VR desteği var)" 
+        data-oyuncu="1-4 (Online ko-op)"
+        data-aciklama="Oyuncular, farklı evlerde doğaüstü varlıkların türünü tespit etmek için ekipmanlarıyla hayalet avına çıkar.">
+            <img src="images/phasmophobia.jpg" alt="Phasmophobia">
+            <h3>Phasmophobia</h3>
+            <p>Çıkış Yılı: 2020</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun59"
+        data-platform="PS4/5" 
+        data-oyuncu="Tek kişilik (8 karakter kontrolü)"
+        data-aciklama="Sekiz genç, dağ evinde geçmişin gölgeleriyle yüzleşirken kararların hayatta kalmalarını belirler.">
+            <img src="images/until dawn.webp" alt="Until Dawn">
+            <h3>Until Dawn</h3>
+            <p>Çıkış Yılı: 2015</p>
+            <p>Puan: ★★★★☆</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+        <div class="oyun-karti" data-kategori="korku" id="oyun60"
+        data-platform="PC, PS4, Xbox One, Switch" 
+        data-oyuncu="Tek kişilik"
+        data-aciklama="Mono ve Six, korkunç yaratıklarla dolu ürkütücü bir dünyadan kaçmak için iş birliği yapar.">
+            <img src="images/little nightmares 2.jpg" alt="Little Nightmares II ">
+            <h3>Little Nightmares II</h3>
+            <p>Çıkış Yılı: 2021</p>
+            <p>Puan: ★★★★★</p>
+            <button class="detay-btn">Detay</button>
+        </div>
+    </section>
+
+<!-- MODAL YAPISI (EN ALTA EKLE) -->
+<div id="oyun-modal" class="modal">
+    <div class="modal-icerik">
+        <span class="kapat">&times;</span>
+        <img id="modal-resim" src="" alt="">
+        <h2 id="modal-baslik"></h2>
+        <p id="modal-yil"></p>
+        <p id="modal-puan"></p>
+        <p id="modal-platform"><strong>Platform:</strong> PC, PS5</p>
+        <p id="modal-oyuncu"><strong>Oyuncu Sayısı:</strong> Tek/Çoklu</p>
+        <p id="modal-aciklama"><strong>Hikayesi:</strong> hikaye</p>
+    </div>
+</div>
+    <footer>
+        <p>© 2025 Codezilla</p>
+    </footer>
+    <script src="oyunlar.js"></script>
+
+
+
+</body>
+</html>
