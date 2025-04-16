@@ -1,2 +1,0 @@
-# Codezilla
-hi-kod proje
